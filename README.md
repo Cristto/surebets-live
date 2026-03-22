@@ -89,6 +89,17 @@ Detected surebets are sent to Telegram including:
 
 ---
 
+## ⚙️ Environment variables
+
+The application requires the following environment variables:
+
+- TELEGRAM_BOT_TOKEN
+- TELEGRAM_CHAT_ID
+- REDIS_ADDR
+- REDIS_PASS
+
+---
+
 ## 🎯 Purpose
 
 This project was built as a technical demonstration of:
