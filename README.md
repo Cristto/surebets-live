@@ -45,9 +45,10 @@ The engine currently processes the following football betting markets:
 ## 📡 Input format
 
 Odds are received as strings, for example:
-
+```
 bwin:Girona:Las Palmas:tuo:2.5:Over:1.95
 betfair:Girona:Las Palmas:tuo:2.5:Under:2.10
+```
 
 ---
 
