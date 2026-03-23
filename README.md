@@ -109,6 +109,12 @@ This project was built as a technical demonstration of:
 - Concurrent processing in Go  
 - Detection of arbitrage opportunities in betting markets  
 
+Additionally, while the current implementation focuses on football markets,  
+the architecture can be adapted to **any type of sporting event**.
+
+Only the market-specific calculation logic would need to be modified  
+(e.g. the methods responsible for evaluating betting outcomes).
+
 ---
 
 ## ⚠️ Disclaimer
