@@ -1,0 +1,80 @@
+Añadida cuota nueva pin:Girona:Las Palmas:tuo:1,5:más de:2.20
+Añadida cuota nueva bet:Girona:Las Palmas:tuo:2,5:Menos:1.30   
+Añadida cuota nueva win:Girona:Las Palmas:tuo:2,5:más de:6.10  
+Añadida cuota nueva bwi:Girona:Las Palmas:tuo:3,5:menos de:1.20
+Añadida cuota nueva mar:Girona:Las Palmas:tuo:0,5:más de:1.80  
+Añadida cuota nueva pin:Girona:Las Palmas:tuo:1,5:menos de:1.30
+Añadida cuota nueva bwi:Girona:Las Palmas:tuo:3,5:más de:12.50 
+Añadida cuota nueva win:Girona:Las Palmas:tuo:3,5:menos de:1.25
+Añadida cuota nueva bet:Girona:Las Palmas:tuo:2,5:Mas:5.50     
+Añadida cuota nueva mar:Girona:Las Palmas:tuo:4,5:Menos:1.10
+Calculando surebets para TUO en partido Girona:Las Palmas
+Surebet encontrada para Girona:Las Palmas
+ mar (4,5 - Menos - 1.10) y bwi (3,5 - más de - 12.50): 0.9891
+Surebet encontrada para Girona:Las Palmas
+ bwi (3,5 - más de - 12.50) y mar (4,5 - Menos - 1.10): 0.9891
+Surebet encontrada para Girona:Las Palmas
+ bwi (3,5 - menos de - 1.20) y win (2,5 - más de - 6.10): 0.9973
+Surebet encontrada para Girona:Las Palmas
+ win (3,5 - menos de - 1.25) y bet (2,5 - Mas - 5.50): 0.9818
+[1] 💰 Surebet encontrada:
+  [mar, Ident: 4,5, Header: Menos, Cuota: 1.10]
+  [bwi, Ident: 3,5, Header: más de, Cuota: 12.50]
+  Valor: 0.9891, Ganancia: 1.09%
+
+[2] 💰 Surebet encontrada:
+  [bwi, Ident: 3,5, Header: más de, Cuota: 12.50]
+  [mar, Ident: 4,5, Header: Menos, Cuota: 1.10]
+  Valor: 0.9891, Ganancia: 1.09%
+
+[3] 💰 Surebet encontrada:
+  [bwi, Ident: 3,5, Header: menos de, Cuota: 1.20]
+  [win, Ident: 2,5, Header: más de, Cuota: 6.10]
+  Valor: 0.9973, Ganancia: 0.27%
+
+[4] 💰 Surebet encontrada:
+  [win, Ident: 3,5, Header: menos de, Cuota: 1.25]
+  [bet, Ident: 2,5, Header: Mas, Cuota: 5.50]
+  Valor: 0.9818, Ganancia: 1.82%
+
+Surebet encontrada para Girona:Las Palmas
+ win (2,5 - más de - 6.10) y bwi (3,5 - menos de - 1.20): 0.9973
+Surebet encontrada para Girona:Las Palmas
+ bet (2,5 - Mas - 5.50) y win (3,5 - menos de - 1.25): 0.9818
+[5] 💰 Surebet encontrada:
+  [win, Ident: 2,5, Header: más de, Cuota: 6.10]
+  [bwi, Ident: 3,5, Header: menos de, Cuota: 1.20]
+  Valor: 0.9973, Ganancia: 0.27%
+
+[6] 💰 Surebet encontrada:
+  [bet, Ident: 2,5, Header: Mas, Cuota: 5.50]
+  [win, Ident: 3,5, Header: menos de, Cuota: 1.25]
+  Valor: 0.9818, Ganancia: 1.82%
+
+
+===== DATOS GUARDADOS =====
+DataBet Matches:
+Match: Girona:Las Palmas
+  TPI:
+  TUO:
+    Casa: bwi
+      Ident: 3,5
+        Header: más de, Cuota: 12.500
+        Header: menos de, Cuota: 1.200
+    Casa: win
+      Ident: 3,5
+        Header: menos de, Cuota: 1.250
+        Header: más de, Cuota: 6.100
+      Ident: 2,5
+        Header: Menos, Cuota: 1.300
+    Casa: pin
+      Ident: 1,5
+        Header: más de, Cuota: 2.200
+        Header: menos de, Cuota: 1.300
+    Casa: mar
+      Ident: 4,5
+        Header: Menos, Cuota: 1.100
+      Ident: 0,5
+        Header: más de, Cuota: 1.800
+  FUO:
+  BTG:
