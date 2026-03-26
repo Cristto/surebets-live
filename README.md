@@ -7,8 +7,8 @@ This project is a **real-time surebet detection engine** for football matches, b
 It calculates arbitrage opportunities (**surebets**) across different bookmakers using live odds data. The system processes multiple matches concurrently and detects profitable combinations when market conditions allow it.
 
 > **NOTE:**
-> This is a simplified single-file version of the engine, focused on demonstrating concurrency and surebet detection logic.  
-> Not production-ready architecture.
+> This repository focuses on the core engine logic. A local test version can be added by placing a separate `main.go` inside a `pruebas` folder, so the engine can be run with manual inputs without Redis or Telegram.  
+> It is not presented as production-ready software.
 
 ---
 
