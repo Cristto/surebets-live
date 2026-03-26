@@ -113,8 +113,8 @@ This project was built as a technical demonstration of:
 Additionally, while the current implementation focuses on football markets,  
 the architecture can be adapted to **any type of sporting event**.
 
-Only the market-specific calculation logic would need to be modified  
-(e.g. the methods responsible for evaluating betting outcomes).
+A basic understanding of **Go** is recommended for anyone who wants to adapt or extend
+the engine for different sports or market types.
 
 ---
 
