@@ -131,7 +131,12 @@ It is **not production-ready** and does not include:
 - Full error handling  
 - Robust parsing/validation  
 - Deployment configuration  
-- Scrapers or external data collectors  
+- Scrapers or external data collectors
+
+This repository only contains the core calculation engine.  
+It does not provide direct integration with bookmakers, private APIs, or unauthorized data access.
+
+Any extension or external use should comply with the applicable platform terms, regulations, and local laws.
 
 ---
 
