@@ -94,7 +94,7 @@ func main() {
 	}
 
 	// si lo quiero para depurar uso esta, asi viendo que worker trabaja cada gorrutina
-	for i := 0; i < numWorkers; i++ {
+	/*for i := 0; i < numWorkers; i++ {
 		wg.Add(1)
 		go func(workerID int) {
 			defer wg.Done()
@@ -103,7 +103,7 @@ func main() {
 				dataBet.SaveEntry(data, channelSurebet)
 			}
 		}(i) // Pasamos el índice del worker (para depuración si es necesario)
-	}
+	}*/
 
 	// Goroutine para leer el canal de surebets y evitar deadlock
 	go func() {
@@ -133,8 +133,11 @@ func main() {
 	fmt.Println("\n🛑 Señal recibida. Cerrando programa...")
 
 	// Cerrar canales y esperar a que terminen las goroutines
-	//close(buffer)
+	// Cuando ya no se van a enviar más mensajes a buffer
+	close(buffer)
+	// Esperar a que terminen todos los workers
 	wg.Wait()
+	// Cuando nadie vaya a enviar más resultados
 	close(channelSurebet)
 
 	fmt.Println("✅ Programa cerrado correctamente.")
