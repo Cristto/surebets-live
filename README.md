@@ -120,30 +120,35 @@ the engine for different sports or market types.
 
 ## ⚠️ Disclaimer
 
-This project is a functional example, intended to demonstrate:
+This project is a **technical demonstration** intended to showcase:
 
-- Concurrency patterns in Go  
-- Real-time data processing  
-- Arbitrage logic (surebets)  
+- Concurrency patterns in Go
+- Real-time and event-driven data processing
+- Mathematical arbitrage calculations (surebets)
+- Concurrent data aggregation and market analysis
 
-It is **not production-ready** and does not include:
+The repository contains **only the processing and calculation engine**. It operates on externally supplied data using a predefined text format.
 
-- Full error handling  
-- Robust parsing/validation  
-- Deployment configuration  
-- Scrapers or external data collectors
+It does **not** include:
 
-This repository only contains the core calculation engine.  
-It does not provide direct integration with bookmakers, private APIs, or unauthorized data access.
+- Connections or integrations with bookmaker websites or APIs
+- Scrapers, crawlers, or external data collection mechanisms
+- Automated betting or wager execution
+- Betting account management or financial transactions
+- Access to private or restricted bookmaker systems
 
-Any extension or external use should comply with the applicable platform terms, regulations, and local laws.
+Bookmaker names appearing in examples or input data are used **solely as text identifiers** and do not imply any affiliation, authorization, or integration with those platforms.
 
----
+This software is **not production-ready** and does not provide:
 
-## 📬 Notes
+- Comprehensive error handling and input validation
+- Security hardening or deployment configuration
+- Guarantees of reliability, performance, or calculation accuracy
 
-- Odds ingestion (scrapers) is external to this project  
-- The engine expects properly formatted data via Redis  
-- Telegram integration is used for real-time alerting  
+The project is provided **"as is"**, without warranties of any kind.
+
+Any modification, integration, or use of this software is the responsibility of the user and must comply with applicable laws, regulations, and third-party terms of service.
+
+**This repository is not a betting platform or an automated gambling service. Its purpose is to demonstrate software engineering concepts through a real-time calculation engine.**
 
 ---
